@@ -2,7 +2,7 @@
 
 Mini aplicación para el orden de diversas actividades pequeñas a realizar.
 
-Hecho con: HTML5, JavaScript y Vue
+Hecho con: HTML5, JavaScript y Vue.js
 
 Instrucciones:
 
