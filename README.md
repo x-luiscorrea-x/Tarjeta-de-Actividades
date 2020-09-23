@@ -2,6 +2,8 @@
 
 Mini aplicación para el orden de diversas actividades pequeñas a realizar.
 
+Hecho con: HTML5, JavaScript y Vue
+
 Instrucciones:
 
 - En el cuadro de texto escribir la actividad a realizar (ejemplo: Entregar proyecto).
