@@ -19,3 +19,6 @@ Instrucciones:
 - Para eliminar una Tarjeta debe presionar el botón "Eliminar".
 
 Disfrute la aplicación.
+
+
+![Screenshot](example.png)
