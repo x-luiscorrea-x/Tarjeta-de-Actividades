@@ -5,7 +5,8 @@ const app = new Vue ({
     data: {
        titulo: 'Tarjetas de Actividades',
        tareas: [],
-       nuevaTarea: ''
+       nuevaTarea: '',
+       nuevaDuracion: ''
     },
 
     methods: {
@@ -13,9 +14,11 @@ const app = new Vue ({
             this.tareas.push({
                 nombre: this.nuevaTarea,
                 estado: false,
+                duracion: this.nuevaDuracion,
                 estadito: 'Aun no realizas esta actividad.'
             });
             this.nuevaTarea = '';
+            this.nuevaDuracion = '';
             localStorage.setItem('tareas-vue', JSON.stringify(this.tareas));
         },
 

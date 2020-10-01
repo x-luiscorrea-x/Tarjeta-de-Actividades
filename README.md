@@ -2,11 +2,13 @@
 
 Mini aplicación para el orden de diversas actividades pequeñas a realizar.
 
-Hecho con: HTML5, JavaScript y Vue.js
+Hecho con: Vue (JavaScript)
 
 Instrucciones:
 
-- En el cuadro de texto escribir la actividad a realizar (ejemplo: Entregar proyecto).
+- En el primer cuadro de texto escribir la actividad a realizar (ejemplo: Entregar proyecto).
+
+- En el segundo cuadro de texto escribir la duracíón de la actividad (ejemplo: Tres horas aproximadamente).
 
 - Presionar el botón "Agregar Tarjeta".
 
