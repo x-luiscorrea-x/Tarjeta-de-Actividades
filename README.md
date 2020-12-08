@@ -2,7 +2,7 @@
 
 Mini aplicación para el orden de diversas actividades pequeñas a realizar.
 
-Hecho con: Vue (JavaScript)
+Hecho con JavaScript (Vue)
 
 Instrucciones:
 
@@ -14,7 +14,7 @@ Instrucciones:
 
 - Se desplegará una Tarjeta con el contenido de la actividad.
 
-- Si ha realizado la actividad de la tarjeta, debe presionar el botón "Realizado" para que la Tarjeta cabie de estado 'No realizado' a 'Realizado'.
+- Si ha realizado la actividad de la tarjeta, debe presionar el botón "Realizado" para que la Tarjeta cambie de estado 'No realizado' a 'Realizado'.
 
 - Para eliminar una Tarjeta debe presionar el botón "Eliminar".
 
