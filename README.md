@@ -4,6 +4,8 @@ Mini aplicación para el orden de diversas actividades pequeñas a realizar.
 
 Hecho con JavaScript (Vue)
 
+Link para acceder a la aplicación: https://tarjetadeactividades.netlify.app
+
 Instrucciones:
 
 - En el primer cuadro de texto escribir la actividad a realizar (ejemplo: Entregar proyecto).
