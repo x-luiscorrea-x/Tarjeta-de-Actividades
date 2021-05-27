@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!- CSS Bosstrap ->
     <!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Tarjetas de Actividades</title>
 </head>
-<body class="bg-secondary">
+<body style="background-image: url('background.jpg');">
     
-    <div class="container mt-5 bg-light rounded p-4" id="app">
+    <div class="container mt-5 rounded p-4" id="app" style="background-color: rgba(0, 0, 0, 0.748);">
 
-        <h3 class="text-secondary">{{titulo}}</h3>
+        <h1 class="text-light">{{titulo}}</h1>
 
         <input type="text" class="form-control my-3" placeholder="Ingrese tarea aquí..." v-model="nuevaTarea">
         <input type="text" class="form-control w-25 my-3" placeholder="Ingrese duración de la tarea..." v-model="nuevaDuracion">
